@@ -1,0 +1,8 @@
+There are different types of shell 
+1> bash 
+2> sh 
+3> ksh 
+4> tsh
+5> fish 
+6> zsh
+
