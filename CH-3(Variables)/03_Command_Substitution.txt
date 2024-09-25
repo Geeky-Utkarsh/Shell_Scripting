@@ -1,0 +1,26 @@
+The process of storing the output of a command in a variable in a shell script is called **command substitution**. This allows you to capture the output of a command and use it later in your script as if it were a variable value.
+
+### Key Points about Command Substitution:
+
+- **Syntax**: It can be done using two methods:
+  - Backticks: `` `command` ``
+  - Parentheses: `$(command)` (recommended)
+
+- **Use Cases**: Command substitution is commonly used to:
+  - Store the output of commands for further processing.
+  - Dynamically generate values to be used in scripts (like timestamps, filenames, or the results of queries).
+
+### Example:
+
+Here's an example that illustrates command substitution:
+
+
+# Store the number of files in the current directory
+file_count=$(ls -1 | wc -l)
+
+# Print the number of files
+echo "There are $file_count files in the current directory."
+
+### Conclusion
+
+In summary, when you capture the output of a command into a variable, it's referred to as **command substitution**, which is a powerful feature in shell scripting that enhances automation and scripting capabilities.

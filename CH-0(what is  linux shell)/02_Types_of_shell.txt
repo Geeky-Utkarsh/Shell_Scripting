@@ -1,8 +1,12 @@
-There are different types of shell 
-1> bash 
-2> sh 
+There are different types of shell (mainly 6) 
+1> bash    (most commonly used)
+2> sh  (bourn shell, old version) 
 3> ksh 
 4> tsh
 5> fish 
-6> zsh
+6> zsh (extended version of bash)
 
+
+
+
+// sh(bourn shell)  is old shell 

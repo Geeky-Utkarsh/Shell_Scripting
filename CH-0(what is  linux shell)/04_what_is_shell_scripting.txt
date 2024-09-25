@@ -1,0 +1,7 @@
+what is shell scripting 
+
+1> Shell scripting consists of set of commands to perform a task
+
+2> All the commands execute sequentially
+
+3> Some task like file manipulation, program execution , user interaction , automation of task etc can be done

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+shebang is added to the start of every script
+to tell the machine which compiler to use to run 
+the script 
+
+
+As it might be possible that some machines are using
+some random default shell like fish etc, So we have to 
+make sure that it runs on
