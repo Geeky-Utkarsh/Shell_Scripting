@@ -1,0 +1,56 @@
+1. File Test Operators
+
+Operator	Description
+-e file	True if the file exists.
+-f file	True if the file exists and is a regular file (not a directory, pipe, etc.).
+-d file	True if the file exists and is a directory.
+-s file	True if the file exists and is not empty.
+-r file	True if the file exists and is readable.
+-w file	True if the file exists and is writable.
+-x file	True if the file exists and is executable.
+-L file	True if the file exists and is a symbolic link.
+-p file	True if the file exists and is a named pipe.
+-c file	True if the file exists and is a character special file.
+-b file	True if the file exists and is a block special file.
+-h file	True if the file exists and is a symbolic link (same as -L).
+
+
+2. String Test Operators
+
+
+Operator	       Description
+-z string	        True if the string is empty.
+-n string	        True if the string is not empty.
+string1 == string2	True if the strings are equal (use = in some older shells).
+string1 != string2	True if the strings are not equal.
+string1 > string2	True if string1 is lexicographically greater than string2.
+string1 < string2	True if string1 is lexicographically less than string2.
+
+
+3. Arithmetic Comparison Operators
+
+Operator	Description
+-eq	        True if two numbers are equal.
+-ne	        True if two numbers are not equal.
+-lt	        True if the first number is less than the second.
+-le	        True if the first number is less than or equal to the second.
+-gt	        True if the first number is greater than the second.
+-ge	        True if the first number is greater than or equal to the second.
+
+
+4. Logical Operators
+
+Operator	Description
+
+!          condition	    Logical NOT. True if the condition is false.
+condition1 && condition2	Logical AND. True if both conditions are true.
+`condition1	
+
+
+5. Compound Conditions
+
+Syntax	                          Description
+[ condition ] && [ condition ]	  Logical AND of two conditions.
+`[ condition ]	
+[[ condition1 && condition2 ]]	  Logical AND within a double-bracket test.
+`[[ condition1]]

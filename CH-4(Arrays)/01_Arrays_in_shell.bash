@@ -5,7 +5,7 @@
 
 myArray=(1 2 Hello "Utkarsh" "Pandey")
 
-echo "Value at the 3rd index is ==> ${myArray[2]}"
+echo "Value at the 3rd index is ==> ${myArray[2]}" 
 
 echo "using IFS" #(Internal Field Separator)
 IFS=","

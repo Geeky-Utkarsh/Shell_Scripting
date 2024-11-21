@@ -8,4 +8,4 @@
 readonly var_name="Utkarsh"
 echo "My College name is $var_name"
 
-var_name="pandey"
+var_name="pandey"qc

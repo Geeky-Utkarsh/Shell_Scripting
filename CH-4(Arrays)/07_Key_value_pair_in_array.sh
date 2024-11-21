@@ -28,3 +28,24 @@ echo -e "The key which we are giving here is \n{name} \n{college} \n{city}\n ===
 
 
 # Printing all keys and values
+echo -e "$myArr[college]"
+
+
+
+
+:<<'comment' 
+
+### Comparison Summary:
+
+| Feature            | Indexed Array               | Associative Array                      |
+|--------------------|-----------------------------|----------------------------------------|
+| Declaration        | `arr=(a 1 3 c d)`           | `declare -A arr`                       |
+| Key Type           | Integer indices (0, 1, …)   | String keys ("name", "id", …)          |
+| Example Access     | `${arr[0]}`, `${arr[3]}`    | `${arr["name"]}`, `${arr["role"]}`     |
+| Use Case           | Sequential lists, ordered values | Key-value mappings, structured data|
+---------------------------------------------------------------------------------------------
+
+In short, use an indexed array for simple lists, and use an associative array when you need to pair elements with specific keys.
+
+
+comment

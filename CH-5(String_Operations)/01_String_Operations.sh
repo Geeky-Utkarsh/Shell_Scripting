@@ -19,4 +19,3 @@ echo "New var is --------> $newVar"
 
 # To slice a string
 echo "After slice --> ${myVar: 4:5}"
-  
