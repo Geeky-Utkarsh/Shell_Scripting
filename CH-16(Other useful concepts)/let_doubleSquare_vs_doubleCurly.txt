@@ -1,0 +1,36 @@
+Difference Between (( )), [[ ]], and let in Bash
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+1. (( )) (Double Parentheses)
+
+Used for arithmetic evaluation.
+Supports C-style arithmetic and assignments.
+Returns 0 (true) or 1 (false) in conditions.
+
+Example:
+    if ((a > b)); then echo "a is greater"; fi
+
+
+
+2. [[ ]] (Double Square Brackets)
+
+Used for conditional testing with advanced features.
+Supports logical operators and regex but not direct arithmetic.
+Use $(( )) inside for arithmetic tests.
+
+Example: 
+      if [[ $a -gt $b ]]; then echo "a is greater"; fi
+
+
+
+3. let
+
+Used for arithmetic evaluation and silent assignments.
+Can evaluate multiple expressions.
+Less commonly used compared to (( )).
+
+Example:
+  let a=5+3 b=2*6
+  echo $a $b  # Outputs: 8 12

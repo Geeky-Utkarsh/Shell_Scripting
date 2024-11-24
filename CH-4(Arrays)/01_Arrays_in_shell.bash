@@ -13,4 +13,4 @@ IFS=","
 
 echo "All values in array are: ${myArray[*]}"
 unset IFS
-
+echo "All values in array are: ${myArray[*]}"

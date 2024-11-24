@@ -1,0 +1,19 @@
+#! /bin/bash
+
+<<Comment 
+
+when we pass multiple arguemnts, we can shift 
+
+A B C
+shift 
+B C
+
+Comment
+
+
+# To create a user , provide username and description 
+
+echo "Creating user"
+echo "username is $#"
+
+echo "Decription is $2"
