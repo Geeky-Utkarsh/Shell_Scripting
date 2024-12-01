@@ -1,0 +1,5 @@
+ 
+
+ 1>     >     this symbol flushes the output on the screen directly to a file (this is why they are called Redirector)
+
+ 2>    

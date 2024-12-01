@@ -1,0 +1,4 @@
+1> echo $random  prints a random number on the script  
+2> echo $UUID    print the user id (it is zero if the user is a root user)
+
+3> echo ${0}    prints the name of the script 

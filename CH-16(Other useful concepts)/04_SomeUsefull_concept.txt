@@ -1,0 +1,10 @@
+1>   realpath -> gives full location of the file from the /home
+2>   -d folder_name -> check if the folder exits or not 
+                ex-> 
+                    if [[ -d folder_name ]]    if folder exists 
+                       [ ! -d folder_name ]  if folder not exits 
+
+3> -f folder_name -> check if the folder exits or not 
+                ex-> 
+                    if [[ -d folder_name ]]    if folder exists 
+                       [ ! -d folder_name ]  if folder not exits 
